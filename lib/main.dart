@@ -30,6 +30,7 @@ class EfficacyUser extends StatelessWidget {
       routes: {
         //issue here
         Homepage.routeName: (context) => const Homepage(),
+        ExplorePage.routeName: (context) => const ExplorePage(),
         LoginPage.routeName: (context) => const LoginPage(),
         SplashScreen.routeName: (context) => const SplashScreen(),
         ProfilePage.routeName: (context) => const ProfilePage(),
