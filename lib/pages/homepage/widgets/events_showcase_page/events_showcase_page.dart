@@ -101,17 +101,17 @@ class _EventsShowcasePageState extends State<EventsShowcasePage> {
           return Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Padding(
-                padding: const EdgeInsets.only(left: 25.0),
-                child: Text(
-                  "${currentEventStatus?.name} Events",
-                  style: TextStyle(
-                    fontSize: MediaQuery.of(context).size.width * 0.06,
-                    color: const Color.fromARGB(253, 82, 81, 81),
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              ),
+              // Padding(
+              //   padding: const EdgeInsets.only(left: 25.0),
+              //   child: Text(
+              //     "${currentEventStatus?.name} Events",
+              //     style: TextStyle(
+              //       fontSize: MediaQuery.of(context).size.width * 0.06,
+              //       color: const Color.fromARGB(253, 82, 81, 81),
+              //       fontWeight: FontWeight.w500,
+              //     ),
+              //   ),
+              // ),
               Expanded(
                 child: RefreshIndicator(
                   onRefresh: _refreshEvents,
