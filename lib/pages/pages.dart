@@ -8,3 +8,4 @@ export 'signup/signup_page.dart';
 export 'login/login_page.dart';
 export 'developers_page/developers_page.dart';
 export 'forgot_password/forgot_password.dart';
+export 'explore/explore_page.dart';
